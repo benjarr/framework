@@ -1,0 +1,17 @@
+{
+    "name": "benja/framework",
+    "type": "project",
+    "description": "Create Your Own Framework",
+    "authors": [
+        {
+            "name": "rabenjasolo",
+            "email": "rabenjasolo@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.0"
+    },
+    "autoload": {
+        "files": ["model.php","controllers.php"]
+    }
+}
