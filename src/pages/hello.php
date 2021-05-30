@@ -1,4 +1,4 @@
-<?php $name = $request->get('name', 'World'); ?>
+<?php /* $name = $request->get('name', 'World'); */ ?>
 
 <!DOCTYPE html>
 <html lang="en">
