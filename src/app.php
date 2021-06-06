@@ -15,8 +15,8 @@ $routes->add('hello', new Route('/hello/{name}', [
 ]));
 
 $routes->add('leap_year', new Route('/is_leap_year/{year}', [
-    'year'        => null,
-    '_controller' => 'LeapYearController::index',
+    'year' => null,
+    '_controller' => 'App\Controller\LeapYearController::index',
 ]));
 
 $routes->add('bye', new Route('/bye'));
